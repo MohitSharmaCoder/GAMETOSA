@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/magetosaApp/static/css/main.9a1ce06c.css",
+    "main.js": "/magetosaApp/static/js/main.a99a47ff.js",
+    "static/media/gametosa.png": "/magetosaApp/static/media/gametosa.e1cd81c3f6401839c5b0.png",
+    "static/media/profilepic.png": "/magetosaApp/static/media/profilepic.6d4be32053662687f5cc.png",
+    "index.html": "/magetosaApp/index.html",
+    "main.9a1ce06c.css.map": "/magetosaApp/static/css/main.9a1ce06c.css.map",
+    "main.a99a47ff.js.map": "/magetosaApp/static/js/main.a99a47ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a1ce06c.css",
+    "static/js/main.a99a47ff.js"
+  ]
+}
