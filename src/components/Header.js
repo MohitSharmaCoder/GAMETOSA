@@ -8,7 +8,7 @@ const HeaderStyle = ()=>{
             {`
                 .header{
                     padding: 7px 20px;
-                    background-color: rgb(238, 238, 238);
+                    background-color: transparent;
                 }
                 .header-content{
                     display: flex;
@@ -25,7 +25,6 @@ const HeaderStyle = ()=>{
                     padding: 12px 17px;
                     border-radius: 8px;
                     border: none;
-                    box-shadow: 0px 1px 18px white;
                     cursor: pointer;
                 }
                 body{
@@ -78,7 +77,7 @@ const HeaderStyle = ()=>{
                     font-size: 15px;
                 }
                 .pages-top{
-                    background-color: white;
+                    background-color: transparent;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
@@ -90,19 +89,34 @@ const HeaderStyle = ()=>{
                     padding: 14px 20px;
                 }
                 .pages-top .btn-two{
-                    background-color: rgb(245, 244, 244);
-                    padding: 9px 60px;
+                    width: 15%;
                     font-size: 18px;
-                    cursor: pointer;
-                    border-bottom: 2px solid white;
                     transition: .14s ease-in;
-                    color: black;
-                }
-                .pages-top .btn-two:hover{
+                    text-align:center;
+                    background-color: #37bce3;
+                    color: white;
+                    padding:8px 5px;
+                    border-radius: 8px;
+                    cursor: pointer;
                     border-bottom: 2px solid rgb(0, 183, 255);
-                    background-color: rgb(219, 241, 248);
-                    color: rgb(0, 183, 255);
+                    }
+                    .pages-top .btn-two:hover{
+                    border-bottom: 2px solid white;
+                    color: white;
                 }                
+                @media screen and (max-width:720px){
+                    .section-two .pages-top .btn-two{
+                        width: 80px;
+                        height: 30px;
+                        font-size: 10px;
+                        text-align:center;
+                        background-color: #37bce3;
+                        color: white;
+                        padding:8px 5px;
+                        border-radius: 8px;
+                        cursor: pointer;
+                    }
+                }
             `}
         </style>
     )
@@ -144,15 +158,14 @@ const Header = () => {
     </div>
     <section class="section-two">
         <div class="pages-top">
-            <Link to={`/about`} id="home" class="btn btn-two">About</Link>
-            <Link to={`/matches`} id="about" class="btn btn-two">Matches</Link>
-            <Link to={`/guilds`} id="help" class="btn btn-two">Guilds</Link>
+            <Link to={`/about`} id="home" class="btn-two">About</Link>
+            <Link to={`/matches`} id="about" class="btn-two">Matches</Link>
+            <Link to={`/guilds`} id="help" class="btn-two">Guilds</Link>
         </div>
         <div className="pages-bottom my-3">	
         </div>
     </section>
     </div>
-
     <HeaderStyle/>
     </div>
   )
