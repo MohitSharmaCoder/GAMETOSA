@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/magetosaApp/static/css/main.9a1ce06c.css",
-    "main.js": "/magetosaApp/static/js/main.2c62eadc.js",
-    "static/media/gametosa.png": "/magetosaApp/static/media/gametosa.e1cd81c3f6401839c5b0.png",
-    "static/media/profilepic.png": "/magetosaApp/static/media/profilepic.6d4be32053662687f5cc.png",
-    "index.html": "/magetosaApp/index.html",
-    "main.9a1ce06c.css.map": "/magetosaApp/static/css/main.9a1ce06c.css.map",
-    "main.2c62eadc.js.map": "/magetosaApp/static/js/main.2c62eadc.js.map"
+    "main.css": "/GametoApp/static/css/main.9a1ce06c.css",
+    "main.js": "/GametoApp/static/js/main.9edad230.js",
+    "static/media/gametosa.png": "/GametoApp/static/media/gametosa.e1cd81c3f6401839c5b0.png",
+    "static/media/profilepic.png": "/GametoApp/static/media/profilepic.6d4be32053662687f5cc.png",
+    "index.html": "/GametoApp/index.html",
+    "main.9a1ce06c.css.map": "/GametoApp/static/css/main.9a1ce06c.css.map",
+    "main.9edad230.js.map": "/GametoApp/static/js/main.9edad230.js.map"
   },
   "entrypoints": [
     "static/css/main.9a1ce06c.css",
-    "static/js/main.2c62eadc.js"
+    "static/js/main.9edad230.js"
   ]
 }
