@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/GametoApp/static/css/main.9a1ce06c.css",
-    "main.js": "/GametoApp/static/js/main.9edad230.js",
-    "static/media/gametosa.png": "/GametoApp/static/media/gametosa.e1cd81c3f6401839c5b0.png",
-    "static/media/profilepic.png": "/GametoApp/static/media/profilepic.6d4be32053662687f5cc.png",
-    "index.html": "/GametoApp/index.html",
-    "main.9a1ce06c.css.map": "/GametoApp/static/css/main.9a1ce06c.css.map",
-    "main.9edad230.js.map": "/GametoApp/static/js/main.9edad230.js.map"
+    "main.css": "/gametosaapp/static/css/main.a619f003.css",
+    "main.js": "/gametosaapp/static/js/main.a1f23dbd.js",
+    "static/media/gametosa.png": "/gametosaapp/static/media/gametosa.e1cd81c3f6401839c5b0.png",
+    "static/media/bluestar.png": "/gametosaapp/static/media/bluestar.e494c3cd48c8243eca8e.png",
+    "static/media/yellowstar.png": "/gametosaapp/static/media/yellowstar.51ab2c46e2ab766cb660.png",
+    "static/media/tick.png": "/gametosaapp/static/media/tick.70566ee68a3c78eeef47.png",
+    "static/media/profilepic.png": "/gametosaapp/static/media/profilepic.6d4be32053662687f5cc.png",
+    "index.html": "/gametosaapp/index.html",
+    "main.a619f003.css.map": "/gametosaapp/static/css/main.a619f003.css.map",
+    "main.a1f23dbd.js.map": "/gametosaapp/static/js/main.a1f23dbd.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a1ce06c.css",
-    "static/js/main.9edad230.js"
+    "static/css/main.a619f003.css",
+    "static/js/main.a1f23dbd.js"
   ]
 }
